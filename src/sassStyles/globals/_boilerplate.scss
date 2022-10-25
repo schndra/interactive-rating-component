@@ -1,0 +1,21 @@
+@use "../utils" as u;
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  // 16px
+}
+
+body {
+  font-family: u.$font;
+  background-color: black;
+  color: u.$neutralMediumGrey;
+  font-weight: 400;
+}

@@ -1,0 +1,98 @@
+@use "./sassStyles/utils/" as u;
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+
+  .container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: u.$neutralVeryDarkBlue;
+    border-radius: 0.5rem;
+    padding: 1.5625rem;
+
+    //u.$neutralDarkBlue
+    .star-container {
+      background-color: u.$neutralDarkBlue;
+      width: 40px;
+      height: 40px;
+      line-height: 47px;
+      border-radius: 50%;
+      text-align: center;
+      vertical-align: middle;
+      margin-bottom: 1rem;
+
+      img {
+        text-align: center;
+      }
+    }
+
+    .rating-count {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+
+      .rating-btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: none;
+        background-color: u.$neutralDarkBlue;
+        text-align: center;
+        color: u.$neutralMediumGrey;
+
+        &:hover {
+          background-color: u.$primaryOrange;
+          color: u.$neutralWhite;
+          cursor: pointer;
+        }
+      }
+      .btn-clicked {
+        background-color: u.$neutralMediumGrey;
+        color: u.$neutralWhite;
+      }
+    }
+    .btn {
+      background-color: u.$primaryOrange;
+      border: none;
+      display: block;
+      width: 100%;
+      padding: 1rem;
+      color: u.$neutralWhite;
+      border-radius: 3rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.25rem;
+
+      &:hover {
+        background-color: u.$neutralWhite;
+        color: u.$primaryOrange;
+      }
+    }
+
+    // when submited
+    .img-container {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .rating-hipster {
+      width: 60%;
+      border-radius: 3rem;
+      margin: 0 auto;
+      padding: 0.3rem;
+      margin-bottom: 2rem;
+      color: u.$primaryOrange;
+      text-align: center;
+      background-color: u.$neutralDarkBlue;
+    }
+    .submit-head {
+      text-align: center;
+    }
+    .submit-para {
+      text-align: center;
+    }
+  }
+}

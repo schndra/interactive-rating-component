@@ -1,3 +1,42 @@
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
+
+### Screenshot
+
+![](./screenshots/ratingState.png)
+![](./screenshots/thankYouState.png)
+
+### Links
+
+## My process
+
+### Built with
+
+- Image assets belongs to [frontendmentor.io](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+- SCSS
+- [React](https://reactjs.org/) - JS library
+
+### What I learned
+
+- Multiple re-rendering in same component
+- How to show different styles based on state
+- How SCSS works and how to structure it
+- Learnded about SCSS partials
+
+### Useful resources
+
+- [SASS folder Structure](https://dev.to/gedalyakrycer/ohsnap-sass-folder-structure-for-react-483e) - This helped me to get an idea of how to structure my SCSS files. I really liked this patter will use it on going forward.
+
+- [SASS GuideLines](https://sass-guidelin.es/) - This helped me to get familiarized with sass sysnax, how to define variables, selector nesting, hoverstates and many more
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
