@@ -15,7 +15,7 @@ Users should be able to:
 ![](./screenshots/thankYouState.png)
 
 ### Links
-- Live Site Preview : (https://rating-component-xy.netlify.app/)
+- Live Site Preview : https://rating-component-xy.netlify.app/
 
 ## My process
 
